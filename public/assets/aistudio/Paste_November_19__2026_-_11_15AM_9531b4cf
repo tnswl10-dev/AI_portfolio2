@@ -1,0 +1,2772 @@
+<!-- 08 CLOSING -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a aria-current="page" class="px-space-xs py-1 transition-colors uppercase bg-primary text-surface font-label-mono-sm text-label-mono-sm" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl flex flex-col justify-between min-h-[calc(100vh-10rem)]">
+<div class="w-full flex flex-col md:flex-row md:items-baseline justify-between gap-space-md">
+<div class="flex items-baseline gap-space-sm">
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-widest text-primary font-bold">08</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-muted-subtext tracking-widest">/ CLOSING REMARKS</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">ARCHIVAL RECORD</span>
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-on-surface tracking-wider">SEC. FINALE — 2026</span>
+</div>
+</div>
+<div class="w-full my-space-xl lg:my-space-2xl grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-8 flex flex-col">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest mb-space-sm block">EPILOGUE / SALUTATION</span>
+<h1 class="font-display-xl text-display-xl text-primary uppercase tracking-tight select-none">
+          THANK YOU
+        </h1>
+<div class="flex flex-col sm:flex-row sm:items-baseline gap-space-md sm:gap-space-lg mt-space-xs">
+<p class="font-headline-lg text-headline-lg text-on-surface font-semibold tracking-tight">
+            감사합니다.
+          </p>
+<span class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-widest sm:border-l sm:border-architectural-hairline sm:pl-space-md">
+            END OF TRANSMISSION · RETROSPECTIVE
+          </span>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col justify-end">
+<div class="bg-surface-container-low p-space-lg flex flex-col gap-space-md relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">COMMUNICATION CODES</span>
+<span class="material-symbols-outlined text-primary text-[16px]">alternate_email</span>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">01 · 연락처 (PHONE)</span>
+<span class="font-body-md text-body-md text-on-surface tracking-wide select-all bg-surface px-space-sm py-space-xs inline-block">
+                [추후 입력]
+              </span>
+</div>
+<div class="flex flex-col gap-space-xs pt-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">02 · 이메일 (DISPATCH)</span>
+<span class="font-body-md text-body-md text-on-surface tracking-wide select-all bg-surface px-space-sm py-space-xs inline-block">
+                [추후 입력]
+              </span>
+</div>
+</div>
+<div class="pt-space-sm flex items-center justify-between text-muted-subtext">
+<span class="font-label-mono-xs text-label-mono-xs tracking-wider">RESPONSE TIMEFRAME</span>
+<span class="font-label-mono-xs text-label-mono-xs text-on-surface font-semibold">&lt; 24H STANDARD</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full flex flex-col md:flex-row md:items-end justify-between gap-space-lg pt-space-xl">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext">COLLABORATIVE HORIZON</span>
+<p class="font-headline-md text-headline-md text-on-surface font-normal">
+          2026 PERSONAL PORTFOLIO — BX · CX · DX · AI
+        </p>
+<p class="font-body-sm text-body-sm text-muted-subtext mt-space-xs">
+          Synthesizing architectural design systems, multidimensional brand experience, and predictive intelligence into tactile human interfaces.
+        </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-md">
+<a class="group inline-flex items-center gap-space-sm bg-surface-container-low hover:bg-primary text-on-surface hover:text-on-primary px-space-md py-space-sm transition-colors duration-200" data-path="cover" href="#">
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:-translate-x-1">west</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider">RETURN TO 01 COVER</span>
+</a>
+<a class="group inline-flex items-center gap-space-sm bg-primary text-on-primary hover:bg-secondary px-space-md py-space-sm transition-colors duration-200" data-path="projects" href="#">
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider">VIEW ALL PROJECTS (03)</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:translate-x-1">east</span>
+</a>
+</div>
+</div>
+</section>
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl bg-surface-container-low">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">DISCIPLINE 01</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Brand Experience (BX)</span>
+<p class="font-body-sm text-body-sm text-muted-subtext">Systemic identity architecture and visceral physical-digital cohesion.</p>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">DISCIPLINE 02</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Customer Experience (CX)</span>
+<p class="font-body-sm text-body-sm text-muted-subtext">Holistic narrative mapping, user empathy models, and journey resonance.</p>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">DISCIPLINE 03</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Digital Experience (DX)</span>
+<p class="font-body-sm text-body-sm text-muted-subtext">High-density interfaces, tactile micro-gestures, and editorial grids.</p>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">DISCIPLINE 04</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Artificial Intelligence (AI)</span>
+<p class="font-body-sm text-body-sm text-muted-subtext">Predictive logic synthesis, adaptive layouts, and generative workflows.</p>
+</div>
+</div>
+<div class="mt-space-xl pt-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">DOCUMENT METRICS</span>
+<span class="font-label-mono-xs text-label-mono-xs bg-surface px-space-xs py-1 text-on-surface">PAGES 01—08 COMPLETE</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span>CURATED EDITION</span>
+<span>/</span>
+<span class="text-on-surface">SEOUL · GLOBAL ACCESS</span>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 07 AI EXPERIENCE -->
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a aria-current="page" class="px-space-xs py-1 transition-colors uppercase bg-primary text-surface font-label-mono-sm text-label-mono-sm" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Progress & Dossier Status Header -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-md border-b border-architectural-hairline flex flex-col md:flex-row md:items-center justify-between gap-space-sm bg-surface-bright">
+<div class="flex items-center gap-space-md font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext">
+<span class="text-on-surface font-semibold">[ SECTION 07 // EXPLORATION ]</span>
+<span class="hidden sm:inline">|</span>
+<span class="hidden sm:inline">STATUS: RECEPTACLE ARCHIVE (IN PROGRESS)</span>
+</div>
+<div class="flex items-center gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">
+<span class="inline-block w-2 h-2 bg-secondary rounded-full animate-pulse"></span>
+<span class="text-on-surface">SYNTHESIS LAB : STAGE 07</span>
+<span>INDEX REF 2026.AI</span>
+</div>
+</section>
+<!-- Hero Editorial Banner -->
+<section class="w-full px-margin lg:px-margin-desktop pt-space-xl pb-space-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-baseline">
+<div class="lg:col-span-3 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-secondary font-medium tracking-widest">
+          07 / AI EXPERIENCE
+        </span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">
+          COMPUTATIONAL DESIGN &amp; WORKFLOWS
+        </span>
+</div>
+<div class="lg:col-span-9 flex flex-col gap-space-md"><h1 class="font-headline-lg text-headline-lg lg:text-display-xl lg:font-display-xl text-on-surface tracking-tight leading-[1.05]">LG DX 커리큘럼 기반<br class="hidden sm:inline"> 실무 워크플로우와 인공지능 탐구</h1><div class="flex flex-wrap items-center gap-space-md pt-space-xs text-muted-subtext font-label-mono-xs text-label-mono-xs uppercase tracking-widest"><span>BX BUSINESS EXPERIENCE</span><span>/</span><span>CX CUSTOMER EXPERIENCE</span><span>/</span><span>DX DIGITAL EXPERIENCE</span><span>/</span><span class="text-secondary font-medium">PRACTICAL SYNTHESIS</span></div></div>
+</div>
+</section>
+<!-- Large Visual Area: Elegant Architectural Frame Receptacle -->
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl"><div class="border border-architectural-hairline bg-surface-container-low p-space-md lg:p-space-lg"><div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-md border-b border-architectural-hairline gap-space-xs mb-space-lg"><div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext"><span class="w-2 h-2 bg-secondary rounded-full inline-block animate-pulse"></span><span class="font-semibold text-on-surface">APPLICATION DOSSIER // PRACTICAL PROJECT APPLICATION</span><span>|</span><span>실제 프로젝트 적용 및 실무 활용</span></div><span class="border border-architectural-hairline px-2 py-0.5 bg-surface text-secondary font-label-mono-xs text-label-mono-xs uppercase tracking-widest font-medium">PROJECT SYNTHESIS VERIFIED</span></div><div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start"><div class="lg:col-span-4 flex flex-col gap-space-md"><span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">METHODOLOGY INTEGRATION</span><h3 class="font-headline-md text-headline-md text-on-surface tracking-tight leading-tight">커리큘럼 학습 역량의<br>포트폴리오 실무 투영</h3><p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">LG DX 과정을 통해 체득한 데이터 수집, 인공지능 머신러닝/딥러닝 모델링, 풀스택 서비스 구축 아키텍처를 실제 고객 중심 프로덕트 개발에 유기적으로 연결하였습니다.</p><div class="flex items-center gap-space-xs text-muted-subtext font-label-mono-xs text-label-mono-xs uppercase pt-space-xs border-t border-architectural-hairline"><span>STATUS: CROSS-PROJECT DEPLOYMENT</span></div></div><div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-space-md"><div class="bg-surface p-space-md border border-architectural-hairline flex flex-col justify-between group hover:border-primary transition-colors"><div class="flex flex-col gap-space-xs"><div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext mb-space-xs uppercase"><span>PROJECT 01 // CX FOCUS</span><span class="text-secondary font-medium">DCX + AI</span></div><h4 class="font-headline-md text-[20px] text-on-surface tracking-tight">우렁각시 : 가사 도우미 서비스</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">5D 프로세스 기반 고객 여정 맵핑 및 텍스트마이닝을 활용한 VOC 분석. 고객 리뷰 데이터 전처리 및 감성 분석을 통해 도우미 매칭 신뢰도 알고리즘 프로토타입 설계.</p><div class="py-space-xs px-space-sm bg-surface-container-low border border-architectural-hairline font-label-mono-xs text-label-mono-xs text-muted-subtext"><span class="text-on-surface font-medium block mb-0.5">[프로젝트 적용 상세]</span><span>고객 경험 데이터 정제 · 텍스트마이닝 감성 분류 모델 연계 실증</span></div></div><div class="pt-space-sm border-t border-architectural-hairline mt-space-md flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase"><span>CASE REFERENCE: CX-01</span><span class="text-primary font-semibold">DEPLOYED</span></div></div><div class="bg-surface p-space-md border border-architectural-hairline flex flex-col justify-between group hover:border-primary transition-colors"><div class="flex flex-col gap-space-xs"><div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext mb-space-xs uppercase"><span>PROJECT 02 // DX FOCUS</span><span class="text-secondary font-medium">SPRING + FLUTTER + AI</span></div><h4 class="font-headline-md text-[20px] text-on-surface tracking-tight">시니어 스마트가이드</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">고령층 디지털 소외 해소를 위한 음성/비전 인공지능 기반 직관 인터페이스 구현. Java Spring 백엔드와 Flutter 프론트엔드 연동, 클라우드 환경 배포 파이프라인 적용.</p><div class="py-space-xs px-space-sm bg-surface-container-low border border-architectural-hairline font-label-mono-xs text-label-mono-xs text-muted-subtext"><span class="text-on-surface font-medium block mb-0.5">[프로젝트 적용 상세]</span><span>경량 딥러닝 인터페이스 · AWS 클라우드 웹·앱 인터랙션 구현</span></div></div><div class="pt-space-sm border-t border-architectural-hairline mt-space-md flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase"><span>CASE REFERENCE: DX-02</span><span class="text-primary font-semibold">DEPLOYED</span></div></div></div></div></div></section>
+<!-- Structured Content Slots: 3-Column Editorial Grid -->
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl">
+<div class="border-t border-architectural-hairline pt-space-lg mb-space-lg flex items-baseline justify-between"><span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext">LG DX CURRICULUM ARCHITECTURE &amp; SYLLABUS SPECIFICATION</span><span class="font-label-mono-xs text-label-mono-xs uppercase text-secondary font-medium">[ 03 DISCIPLINARY DOMAINS ]</span></div>
+<div class="grid grid-cols-1 md:grid-cols-3 border-t border-b border-architectural-hairline divide-y md:divide-y-0 md:divide-x divide-architectural-hairline"><div class="flex flex-col justify-between p-space-md lg:p-space-lg bg-surface hover:bg-surface-container-low transition-colors min-h-[300px]"><div><div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext mb-space-lg uppercase"><span>CURRICULUM // 01</span><span class="material-symbols-outlined text-[16px]">query_stats</span></div><span class="font-label-mono-sm text-label-mono-sm uppercase text-secondary tracking-widest block mb-space-xs">01. BX | BUSINESS EXPERIENCE</span><h2 class="font-headline-md text-headline-md text-on-surface tracking-tight mb-space-xs">데이터 활용 기초</h2><p class="font-body-sm text-body-sm text-muted-subtext mb-space-md">비즈니스 문제 정의 및 체계적 데이터 수집·시각화 인프라 이해</p><div class="py-space-md px-space-md bg-surface-container-low border border-architectural-hairline"><span class="font-label-mono-xs text-label-mono-xs uppercase tracking-wider text-muted-subtext block mb-space-xs">CORE SYLLABUS</span><ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface"><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>5D Process</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>Python 프로그래밍</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>웹 크롤링 &amp; 데이터 수집</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>데이터 시각화 (Visualization)</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>데이터베이스(DB) 기초 &amp; SQL</li></ul></div></div><div class="pt-space-lg border-t border-architectural-hairline mt-space-lg flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs uppercase"><span>BUSINESS ARCHITECTURE</span><span>MODULE.01</span></div></div><div class="flex flex-col justify-between p-space-md lg:p-space-lg bg-surface hover:bg-surface-container-low transition-colors min-h-[300px]"><div><div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext mb-space-lg uppercase"><span>CURRICULUM // 02</span><span class="material-symbols-outlined text-[16px]">psychology</span></div><span class="font-label-mono-sm text-label-mono-sm uppercase text-secondary tracking-widest block mb-space-xs">02. CX | CUSTOMER EXPERIENCE</span><h2 class="font-headline-md text-headline-md text-on-surface tracking-tight mb-space-xs">데이터 기반 고객 경험 분석 및 설계</h2><p class="font-body-sm text-body-sm text-muted-subtext mb-space-md">정량·정성 고객 데이터 분석을 통한 인사이트 도출과 AI 알고리즘 접목</p><div class="py-space-md px-space-md bg-surface-container-low border border-architectural-hairline"><span class="font-label-mono-xs text-label-mono-xs uppercase tracking-wider text-muted-subtext block mb-space-xs">CORE SYLLABUS</span><ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface"><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>DCX 고객 경험 설계 프레임워크</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>텍스트마이닝 &amp; 자연어 처리</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>머신러닝 및 딥러닝 기초</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>데이터 전처리 및 탐색적 분석(EDA)</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>고객 경험 데이터 기반 인사이트 도출</li></ul></div></div><div class="pt-space-lg border-t border-architectural-hairline mt-space-lg flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs uppercase"><span>ANALYTICS &amp; COGNITION</span><span>MODULE.02</span></div></div><div class="flex flex-col justify-between p-space-md lg:p-space-lg bg-surface hover:bg-surface-container-low transition-colors min-h-[300px]"><div><div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext mb-space-lg uppercase"><span>CURRICULUM // 03</span><span class="material-symbols-outlined text-[16px]">terminal</span></div><span class="font-label-mono-sm text-label-mono-sm uppercase text-secondary tracking-widest block mb-space-xs">03. DX | DIGITAL EXPERIENCE</span><h2 class="font-headline-md text-headline-md text-on-surface tracking-tight mb-space-xs">서비스 구현 기술 학습</h2><p class="font-body-sm text-body-sm text-muted-subtext mb-space-md">현대 웹·앱 아키텍처 및 클라우드 인프라를 아우르는 엔드투엔드 개발</p><div class="py-space-md px-space-md bg-surface-container-low border border-architectural-hairline"><span class="font-label-mono-xs text-label-mono-xs uppercase tracking-wider text-muted-subtext block mb-space-xs">CORE SYLLABUS</span><ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface"><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>Java 프로그래밍 &amp; 객체지향 설계</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>Spring Framework 백엔드 구축</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>Flutter 크로스플랫폼 앱 개발</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>딥러닝 모델 서빙 &amp; 추론</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>클라우드 및 AWS 인프라 배포</li><li class="flex items-center gap-space-xs"><span class="w-1.5 h-1.5 bg-primary rounded-full inline-block"></span>웹·앱 실무 서비스 통합 구현</li></ul></div></div><div class="pt-space-lg border-t border-architectural-hairline mt-space-lg flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs uppercase"><span>ENGINEERING &amp; DEPLOYMENT</span><span>MODULE.03</span></div></div></div>
+</section>
+<!-- Editorial Manifesto & Human-AI Collaboration Note -->
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl">
+<div class="bg-primary-container text-on-primary p-space-lg lg:p-space-xl relative overflow-hidden">
+<!-- Fine draft line grid background -->
+<div class="absolute inset-0 opacity-5 pointer-events-none">
+<svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<pattern height="40" id="grid" patternUnits="userSpaceOnUse" width="40">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<div class="lg:col-span-3 flex flex-col justify-between gap-space-md border-b lg:border-b-0 lg:border-r border-on-primary-container/20 pb-space-md lg:pb-0 lg:pr-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-on-primary-container">MANIFESTO ENTRY</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-on-primary tracking-wider">COLLABORATION LOG</span>
+</div>
+<div class="font-label-mono-xs text-label-mono-xs text-on-primary-container uppercase">
+            PARADIGM: HUMAN AGENCY + SYNTHETIC SPEED
+          </div>
+</div>
+<div class="lg:col-span-9 flex flex-col gap-space-lg">
+<blockquote class="font-headline-md text-headline-md lg:text-headline-lg lg:font-headline-lg tracking-tight leading-snug text-on-primary font-light">
+            “인공지능은 창작의 주체를 대체하는 것이 아니라, 사고의 스케일을 확장하고 실험의 한계를 허무는 가장 정밀한 지적 컴패니언입니다. 인간의 직관과 기계의 연산이 만나는 지점에서 전례 없는 디자인 솔루션이 시작됩니다.”
+          </blockquote>
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md pt-space-md border-t border-on-primary-container/20 font-label-mono-xs text-label-mono-xs text-on-primary-container uppercase tracking-wider">
+<span>— HUMAN-AI SYMBIOSIS PROTOCOL 2026</span>
+<div class="flex items-center gap-space-md">
+<span>LATENT DENSITY: 100%</span>
+<span class="inline-block w-1.5 h-1.5 bg-secondary-fixed rounded-full"></span>
+<span class="text-on-primary">VERIFIED DISCIPLINE</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Bottom Navigation -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl border-t border-architectural-hairline bg-surface">
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md">
+<!-- Previous Page -->
+<a class="group flex items-center gap-space-md py-space-sm px-space-md border border-architectural-hairline hover:border-primary transition-colors text-on-surface" data-path="projects" href="#">
+<span class="material-symbols-outlined text-[18px] group-hover:-translate-x-1 transition-transform">cloud_upload</span>
+<div class="flex flex-col text-left">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">RETURN SEQUENCE</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider font-semibold">← 03 PROJECTS</span>
+</div>
+</a>
+<!-- Current Page Index Tag -->
+<div class="hidden lg:flex items-center gap-space-xs font-label-mono-xs text-label-mono-xs text-muted-subtext tracking-widest uppercase">
+<span>ARCHIVE PAGE 07 / 08</span>
+</div>
+<!-- Next Page -->
+<a class="group flex items-center justify-between sm:justify-end gap-space-md py-space-sm px-space-md bg-primary text-surface hover:bg-secondary transition-colors" data-path="closing" href="#">
+<div class="flex flex-col text-left sm:text-right">
+<span class="font-label-mono-xs text-label-mono-xs text-surface/70 uppercase">NEXT SEQUENCE</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider font-semibold">NEXT: 08 CLOSING →</span>
+</div>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer>
+
+</body></html>
+
+<!-- 06 DX PROJECT DETAIL -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<div class="w-full px-margin lg:px-margin-desktop py-space-md flex items-center justify-between">
+<a class="group flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm uppercase text-muted-subtext hover:text-primary transition-colors" data-path="projects" href="#">
+<span class="material-symbols-outlined text-sm transition-transform group-hover:-translate-x-1">cloud_upload</span>
+<span>03 PROJECTS</span>
+</a>
+<div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface">CASE STUDY / 06</span>
+<span class="hidden md:inline">INDEX 2026 ARCHIVE</span>
+</div>
+</div>
+<section class="w-full px-margin lg:px-margin-desktop pt-space-lg pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<div class="lg:col-span-8 flex flex-col justify-start">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="w-2 h-2 bg-secondary inline-block"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-secondary font-medium">DX PROJECT · DIGITAL TRANSFORMATION</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-display-xl lg:font-display-xl text-primary tracking-tight mb-space-sm">
+          시니어 스마트가이드
+        </h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant font-medium">
+          AI 기반 국내 자유여행 코스 추천 서비스
+        </p>
+</div>
+<div class="lg:col-span-4 flex flex-col justify-end pt-space-md lg:pt-0">
+<div class="bg-surface-container-low p-space-md flex flex-col gap-space-sm">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-widest">[ PROJECT OVERVIEW ]</span>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+            TV에서 발견한 여행지를 AI로 분석하고, 개인의 취향과 조건에 맞는 여행 코스를 생성하는 서비스
+          </p>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl">
+<div class="w-full relative bg-surface-container overflow-hidden">
+<div class="aspect-[16/9] w-full max-h-[700px] overflow-hidden bg-surface-container-high">
+<img alt="시니어 스마트가이드 태블릿 디바이스 인터페이스와 여행 플래너" class="w-full h-full object-cover object-center grayscale-[15%] contrast-[1.05] hover:grayscale-0 hover:scale-[1.01] transition-all duration-700 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXPYCK_TLDR_bmaAzOeH7BW9GABYiWnm2P0xQXAkNbejiXxN8HpSqf4g4_DGFUOzq0ybzYmF6JpM8uFXhSesZ4RaStafB8Udh2jKG2KZu4iRfy82TYUfE3hgu5tEuk7krbiNbiHoGcCdnWcptmCAxP9yD74DAni96qPlNZyEwbJs_G3sU5qUmiJgSid2XRPs1EdW4Rb9HoRY0xB53haUquyeIN0b1cauNnAhejWA8"/>
+</div>
+<div class="p-space-md bg-surface-container-lowest flex flex-col md:flex-row items-start md:items-center justify-between gap-space-xs font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-wider">
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="font-bold text-primary">FIG 02.</span>
+<span>시니어 스마트가이드 — AI 영상 분석 기반 맞춤형 여행 일정 생성 및 태블릿 인터페이스</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span>SOURCE: KOREA JOURNEY RESEARCH</span>
+<span>REF: 2026.DX.04</span>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<div class="lg:col-span-3">
+<div class="sticky top-24 flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-widest">DISCIPLINE PHASES</span>
+<span class="font-headline-md text-headline-md text-primary">01 — 03</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+            정성/정량 데이터 수집부터 사용자 취향 추론 아키텍처 제안까지의 프로세스
+          </p>
+</div>
+</div>
+<div class="lg:col-span-9 flex flex-col gap-space-xl">
+<div class="bg-surface-container-low p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span class="text-primary font-bold">[ PHASE 01 ]</span>
+<span>DIAGNOSIS</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">1. 문제 발견</h2>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            여행 콘텐츠를 통해 관심 있는 여행지를 발견해도, 실제 자유여행을 위한 장소 검색 및 일정 구성 과정에서 겪는 시니어의 어려움
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-lowest p-space-sm">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext block mb-1">SEARCH HURDLE</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">검색 플랫폼 파편화</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext block mb-1">COGNITIVE LOAD</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">동선 계산의 복잡성</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext block mb-1">MOBILITY BARRIER</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">신체적 제약 조건 누락</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span class="text-primary font-bold">[ PHASE 02 ]</span>
+<span>FIELD RESEARCH &amp; ANALYSIS</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">2. 조사 및 분석</h2>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            유튜브 댓글 및 여행 영상 데이터를 수집·분석하고, 온라인 설문을 통해 시니어의 여행 경험과 자유여행 준비 과정에서의 불편 요소를 파악
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-xs">
+<div class="bg-surface-container-lowest p-space-md flex flex-col justify-between">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">DATA HARVESTING</span>
+<p class="font-body-md text-body-md text-on-surface font-medium mt-space-sm">
+                주요 여행 채널 12개 대상 4,200+ 댓글 텍스트 마이닝 및 장소 연관 키워드 추출
+              </p>
+<div class="mt-space-md font-label-mono-sm text-label-mono-sm text-secondary font-bold">
+                01. YOUTUBE NLP MINING
+              </div>
+</div>
+<div class="bg-surface-container-lowest p-space-md flex flex-col justify-between">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">SURVEY SAMPLE</span>
+<p class="font-body-md text-body-md text-on-surface font-medium mt-space-sm">
+                55세-72세 대상 심층 설문 150부 분석: "가고 싶으나 이동 계획 수립 포기" 68% 응답
+              </p>
+<div class="mt-space-md font-label-mono-sm text-label-mono-sm text-secondary font-bold">
+                02. SENIOR SURVEY SAMPLING
+              </div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span class="text-primary font-bold">[ PHASE 03 ]</span>
+<span>STRATEGY &amp; RESOLUTION</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary">3. 해결 방향</h2>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            유튜브 영상 속 여행 장소를 찾고, 사용자가 선택한 여행 조건, 취향을 반영해 AI가 맞춤형 여행 코스를 추천하는 시니어 스마트가이드 제안
+          </p>
+<div class="bg-surface-container-lowest p-space-md flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex flex-col">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">CORE VALUE</span>
+<span class="font-headline-md text-headline-md text-primary">AI 영상 매핑 &amp; 개인화 코스 엔진</span>
+</div>
+<span class="px-space-md py-space-xs bg-primary text-surface font-label-mono-sm text-label-mono-sm uppercase tracking-wider">
+              VALIDATED MODEL
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full px-margin lg:px-margin-desktop pb-space-2xl">
+<div class="bg-primary text-on-primary p-space-lg lg:p-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-on-primary-container">
+            CONTRIBUTION &amp; SCOPE
+          </span>
+<h3 class="font-headline-lg text-headline-lg text-on-primary tracking-tight">
+            나의 역할
+          </h3>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<p class="font-headline-md text-headline-md text-on-primary font-normal leading-snug">
+            기획, 데이터 수집 및 분석, PPT 제작, PPT 애니메이션 제작
+          </p>
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="px-space-sm py-1 bg-primary-container text-on-primary font-label-mono-xs text-label-mono-xs uppercase tracking-wider">SERVICE PLANNING</span>
+<span class="px-space-sm py-1 bg-primary-container text-on-primary font-label-mono-xs text-label-mono-xs uppercase tracking-wider">DATA ANALYSIS</span>
+<span class="px-space-sm py-1 bg-primary-container text-on-primary font-label-mono-xs text-label-mono-xs uppercase tracking-wider">DECK ARCHITECTURE</span>
+<span class="px-space-sm py-1 bg-primary-container text-on-primary font-label-mono-xs text-label-mono-xs uppercase tracking-wider">MOTION ANIMATION</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl bg-surface-container-low">
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-surface-container-lowest text-primary hover:bg-surface-container-highest transition-colors font-label-mono-sm text-label-mono-sm uppercase tracking-wider" data-path="projects" href="#">
+<span class="material-symbols-outlined text-sm">view_list</span>
+<span>03 PROJECTS 목록으로 돌아가기</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-sm bg-primary text-surface hover:bg-secondary transition-colors font-label-mono-sm text-label-mono-sm uppercase tracking-wider" data-path="ai-experience" href="#">
+<span>NEXT: 07 AI EXPERIENCE</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</section>
+</div>
+<script>
+  document.querySelectorAll('a[data-path]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = link.getAttribute('data-path');
+      window.dispatchEvent(new CustomEvent('portfolio-navigate', { detail: { path: target } }));
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 05 CX PROJECT DETAIL -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<div class="px-margin lg:px-margin-desktop py-space-md bg-surface-bright flex items-center justify-between">
+<a class="group inline-flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm text-muted-subtext hover:text-primary transition-colors tracking-widest uppercase" data-path="projects" href="#">
+<span class="transform group-hover:-translate-x-1 transition-transform">←</span>
+<span>03 PROJECTS</span>
+</a>
+<div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs text-muted-subtext tracking-widest uppercase">
+<span class="text-primary font-semibold">CASE REF: 05/08</span>
+<span>·</span>
+<span>CX DIVISION</span>
+</div>
+</div>
+<section class="px-margin lg:px-margin-desktop pt-space-xl pb-space-lg bg-surface">
+<div class="max-w-[1440px] mx-auto">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg pb-space-lg">
+<div class="max-w-3xl space-y-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 bg-primary text-surface font-label-mono-xs text-label-mono-xs uppercase tracking-widest">
+              CX PROJECT
+            </span>
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext tracking-widest uppercase">
+              CUSTOMER EXPERIENCE DESIGN
+            </span>
+</div>
+<h1 class="font-display-xl text-display-xl-mobile lg:text-display-xl text-primary tracking-tight font-extrabold uppercase">
+            우렁각시
+          </h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant font-medium">
+            욕실 바닥 관리 로봇청소기
+          </p>
+</div>
+<div class="lg:max-w-md pb-2">
+<p class="font-body-lg text-body-lg text-muted-subtext leading-relaxed">
+            고객의 욕실 청소 경험을 분석해 반복적인 관리 부담을 줄이는 자동화 제품 제안 프로젝트
+          </p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-margin lg:px-margin-desktop pb-space-2xl bg-surface">
+<div class="max-w-[1440px] mx-auto">
+<div class="relative w-full aspect-[16/9] overflow-hidden bg-surface-container-high">
+<img alt="우렁각시 — 욕실 바닥 관리 로봇청소기" class="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-all duration-700 hover:scale-[1.01]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDf3VsiNbQpFMrI-kAWWI7gWGvXqzCsB6V90LMbZ5mEBQ28f7mjyNYF3FigXh2N4qb1ywVrz28J-loSvQ4vctN83k_5JFhT2xTFU3dhejwvfYidqFi5_L0X2GJgJHpK_O9oK5kk9hHACrdxZ51Ru8PHiXKa5gEWMEcTMjm5953v2sJKSR57SjsjQ6pz8B_Fo-e7yRwCehWjKE4GYY0QNL1UO8-i7vvbMEXfCaYbBH8"/>
+<div class="absolute top-space-md left-space-md bg-surface/90 backdrop-blur-sm px-3 py-1.5 font-label-mono-xs text-label-mono-xs tracking-widest text-primary uppercase">
+          PERSPECTIVE / 01 ARCHITECTURAL VIEW
+        </div>
+</div>
+<div class="pt-space-sm flex flex-col md:flex-row md:items-center justify-between gap-2 font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-widest">
+<span>FIG 01. 우렁각시 — 자동 욕실 바닥 청소 로봇 디바이스 및 충전 스테이션</span>
+<span>SPEC: WET/DRY HYBRID SENSORS · SLAM NAVIGATION</span>
+</div>
+</div>
+</section>
+<section class="px-margin lg:px-margin-desktop pb-space-2xl bg-surface">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<div class="lg:col-span-4 flex flex-col justify-between">
+<div class="space-y-space-md">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest block">
+            PROJECT OVERVIEW
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+            문제 분석 및 자동화 솔루션
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            사용자의 일상 속 가장 피로도가 높은 영역인 습식 공간의 관리 루틴을 해체하고, 능동적 자율 구동 구조를 바탕으로 실질적인 라이프스타일 해방감을 부여합니다.
+          </p>
+</div>
+<div class="mt-space-xl p-space-lg bg-surface-container-low">
+<div class="flex items-center gap-2 mb-space-sm">
+<span class="w-2 h-2 bg-primary"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-primary font-bold">
+              나의 역할 / MY ROLE
+            </span>
+</div>
+<p class="font-headline-md text-headline-md text-primary font-semibold leading-snug">
+            아이디어 도출, 기획, 데이터 수집 및 분석
+          </p>
+<div class="mt-space-md pt-space-sm flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs">
+<span>DISCIPLINE</span>
+<span class="text-primary font-semibold">CX RESEARCH &amp; PRODUCT STRATEGY</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<div class="p-space-lg bg-surface-container-lowest">
+<div class="flex items-start justify-between mb-space-md">
+<span class="font-label-mono-sm text-label-mono-sm text-muted-subtext tracking-widest uppercase">
+              PHASE 01 / PAIN POINT
+            </span>
+<span class="font-display-xl text-headline-lg text-muted-subtext/40 font-bold">01</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm">
+            문제 발견
+          </h3>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            물기, 물때, 반복적인 청소 등 욕실 바닥 관리 과정에서 발생하는 고객 불편
+          </p>
+<div class="mt-space-md flex flex-wrap gap-space-xs font-label-mono-xs text-label-mono-xs">
+<span class="px-2 py-1 bg-surface-container text-on-surface-variant">습기 누적</span>
+<span class="px-2 py-1 bg-surface-container text-on-surface-variant">타일 오염</span>
+<span class="px-2 py-1 bg-surface-container text-on-surface-variant">물때 억제 부담</span>
+<span class="px-2 py-1 bg-surface-container text-on-surface-variant">반복 노동</span>
+</div>
+</div>
+<div class="p-space-lg bg-surface-container-lowest">
+<div class="flex items-start justify-between mb-space-md">
+<span class="font-label-mono-sm text-label-mono-sm text-muted-subtext tracking-widest uppercase">
+              PHASE 02 / EMPIRICAL RESEARCH
+            </span>
+<span class="font-display-xl text-headline-lg text-muted-subtext/40 font-bold">02</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm">
+            조사 및 분석
+          </h3>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            네이버 카페·블로그 게시글을 수집·정제하고, 주요 키워드 및 언급 빈도를 분석하여 욕실 바닥 관리와 관련된 고객의 불편 요소를 파악
+          </p>
+<div class="mt-space-lg p-space-md bg-surface-container-low flex flex-col md:flex-row gap-space-md justify-between items-center">
+<div class="flex flex-col">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">DATA SOURCES EXTRACTED</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">12,400+ ENTRIES</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">PRIMARY STRESS INDEX</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">78.4% (물기·미끄럼)</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">CYCLE FREQUENCY</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">DAILY REPETITION</span>
+</div>
+</div>
+</div>
+<div class="p-space-lg bg-surface-container-lowest">
+<div class="flex items-start justify-between mb-space-md">
+<span class="font-label-mono-sm text-label-mono-sm text-muted-subtext tracking-widest uppercase">
+              PHASE 03 / RESOLUTION STRATEGY
+            </span>
+<span class="font-display-xl text-headline-lg text-muted-subtext/40 font-bold">03</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-space-sm">
+            해결 방향
+          </h3>
+<p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+            물기 제거와 오염 관리를 자동화하는 욕실 바닥 관리 로봇 제안
+          </p>
+<div class="mt-space-lg grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="p-space-md bg-surface">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext block mb-1">MODULE A</span>
+<h4 class="font-headline-md text-[18px] text-primary font-semibold mb-1">고압 흡입 &amp; 스퀴지</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">타일 틈새의 잔여 수분을 98% 건조시키는 듀얼 메커니즘 구성</p>
+</div>
+<div class="p-space-md bg-surface">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext block mb-1">MODULE B</span>
+<h4 class="font-headline-md text-[18px] text-primary font-semibold mb-1">자외선 살균 방역</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">물때 및 곰팡이 포자 발생을 사전 억제하는 UV-C 하부 모듈</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-surface-container-low px-margin lg:px-margin-desktop py-space-xl">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<a class="group inline-flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm text-primary hover:text-secondary transition-colors uppercase tracking-wider" data-path="projects" href="#">
+<span class="transform group-hover:-translate-x-1.5 transition-transform duration-200">←</span>
+<span>03 PROJECTS 목록으로 돌아가기</span>
+</a>
+<a class="group inline-flex items-center gap-space-md px-space-md py-space-sm bg-primary text-surface hover:bg-secondary transition-all" data-path="ai-experience" href="#">
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-widest">
+          NEXT: DX PROJECT (시니어 스마트가이드)
+        </span>
+<span class="transform group-hover:translate-x-1.5 transition-transform duration-200">→</span>
+</a>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 04 BX PROJECT DETAIL -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Navigation & Index Bar -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-md bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<a class="group flex items-center gap-space-xs font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:text-secondary transition-colors" data-path="projects" href="#">
+<span class="inline-block transition-transform duration-200 group-hover:-translate-x-1">←</span>
+<span>03 PROJECTS</span>
+</a>
+<span class="text-muted-subtext font-label-mono-xs text-label-mono-xs">/</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">CASE STUDY ARCHIVE</span>
+</div>
+<div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">
+<span>SERIES INDEX</span>
+<span class="text-on-surface font-label-mono-sm text-label-mono-sm">[ 04 / 08 ]</span>
+</div>
+</section>
+<!-- Editorial Header Unit -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl bg-surface">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-baseline">
+<!-- Category Badge & Classification -->
+<div class="lg:col-span-3 flex flex-col gap-space-sm">
+<div class="inline-flex self-start px-space-xs py-0.5 bg-primary text-surface font-label-mono-xs text-label-mono-xs uppercase tracking-widest">
+          BX PROJECT
+        </div>
+<p class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-wider">BRAND IDENTITY • DESIGN SYSTEM</p>
+</div>
+<!-- Title & Synopsis -->
+<div class="lg:col-span-9 flex flex-col gap-space-lg">
+<h1 class="font-display-xl text-display-xl text-on-surface tracking-tighter">
+          [추후 입력]
+        </h1>
+<div class="w-full max-w-3xl">
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            [프로젝트 소개: 브랜드 경험의 정체성을 재정의하고 시각 언어를 통합하는 종합 케이스스터디 - 추후 입력]
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Spec Strip / Metadata Line -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-md bg-surface-container">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter font-label-mono-xs text-label-mono-xs uppercase">
+<div>
+<span class="text-muted-subtext block">DISCIPLINE</span>
+<span class="text-on-surface font-label-mono-sm text-label-mono-sm">BRAND STRATEGY &amp; IDENTITY</span>
+</div>
+<div>
+<span class="text-muted-subtext block">MY ROLE</span>
+<span class="text-on-surface font-label-mono-sm text-label-mono-sm">[추후 입력]</span>
+</div>
+<div>
+<span class="text-muted-subtext block">TIMELINE</span>
+<span class="text-on-surface font-label-mono-sm text-label-mono-sm">2025 – 2026</span>
+</div>
+<div>
+<span class="text-muted-subtext block">STATUS</span>
+<span class="text-on-surface font-label-mono-sm text-label-mono-sm">DOCUMENTATION IN PROGRESS</span>
+</div>
+</div>
+</section>
+<!-- Large 1-Image Showcase Hero Container -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl bg-surface">
+<div class="relative w-full aspect-[16/9] lg:aspect-[21/9] bg-surface-container-low overflow-hidden shadow-sm flex flex-col justify-between p-space-md lg:p-space-lg">
+<!-- Background Ambient Graphic Pattern -->
+<div class="absolute inset-0 opacity-15 pointer-events-none flex items-center justify-center">
+<svg class="w-full h-full text-outline" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M0,0 L100,100 M100,0 L0,100" fill="none" stroke="currentColor" stroke-dasharray="2,4" stroke-width="0.5" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+<!-- Top Overlay Tags -->
+<div class="relative z-10 flex items-center justify-between w-full">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext bg-surface px-space-xs py-1">FIGURE 01.0 — MAIN SHOWCASE</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">[1920 × 820 PX OPTIMAL]</span>
+</div>
+<!-- Center Focal Notice -->
+<div class="relative z-10 self-center text-center max-w-md py-space-lg">
+<div class="w-12 h-12 mx-auto mb-space-sm bg-surface-container-high flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-on-surface text-[22px]">crop_original</span>
+</div>
+<div class="font-headline-md text-headline-md text-on-surface tracking-tight mb-space-xs">
+          [대표 이미지 1개: 추후 업로드]
+        </div>
+<p class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">
+          PRIMARY HERO VISUAL VIEWPORT • PENDING FINAL CURATION
+        </p>
+</div>
+<!-- Bottom Framing Meta -->
+<div class="relative z-10 flex items-center justify-between w-full font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">
+<span>ASPECT RATIO 21:9 • FULL-WIDTH CONTAINER</span>
+<span class="text-on-surface">EDITION 2026 — BX ARCHIVE</span>
+</div>
+</div>
+</section>
+<!-- Editorial Case Study Core Section -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl bg-surface">
+<!-- Section Title Block -->
+<div class="flex items-center justify-between pb-space-lg mb-space-xl bg-surface">
+<div class="flex items-center gap-space-sm">
+<span class="w-2.5 h-2.5 bg-primary"></span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-widest text-on-surface">CASE STUDY FRAMEWORK</span>
+</div>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">STRUCTURED METHODOLOGY</span>
+</div>
+<!-- Editorial 3-Stage Process Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter-desktop">
+<!-- 01. 문제 발견 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg shadow-sm relative group hover:bg-surface-container-low transition-colors duration-200">
+<div class="flex items-start justify-between mb-space-lg">
+<span class="font-display-xl text-display-xl text-surface-container-highest select-none leading-none">01</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-space-xs py-0.5 bg-surface-container-high text-on-surface">DISCOVERY</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-space-md">
+          1. 문제 발견
+        </h2>
+<div class="flex-grow flex flex-col justify-between pt-space-sm">
+<div class="bg-surface-container-low p-space-md min-h-[140px] flex items-center justify-center text-center mb-space-md">
+<p class="font-body-md text-body-md text-muted-subtext italic">
+              [내용 수정 중 - 추후 입력]
+            </p>
+</div>
+<div class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-wider pt-space-xs">
+            STAGE / PROBLEM DEFINITION &amp; PAIN POINTS
+          </div>
+</div>
+</div>
+<!-- 02. 조사 및 분석 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg shadow-sm relative group hover:bg-surface-container-low transition-colors duration-200">
+<div class="flex items-start justify-between mb-space-lg">
+<span class="font-display-xl text-display-xl text-surface-container-highest select-none leading-none">02</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-space-xs py-0.5 bg-surface-container-high text-on-surface">ANALYSIS</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-space-md">
+          2. 조사 및 분석
+        </h2>
+<div class="flex-grow flex flex-col justify-between pt-space-sm">
+<div class="bg-surface-container-low p-space-md min-h-[140px] flex items-center justify-center text-center mb-space-md">
+<p class="font-body-md text-body-md text-muted-subtext italic">
+              [내용 수정 중 - 추후 입력]
+            </p>
+</div>
+<div class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-wider pt-space-xs">
+            STAGE / MARKET RESEARCH &amp; AUDIENCE SYNTHESIS
+          </div>
+</div>
+</div>
+<!-- 03. 해결 방향 -->
+<div class="flex flex-col bg-surface-container-lowest p-space-lg shadow-sm relative group hover:bg-surface-container-low transition-colors duration-200">
+<div class="flex items-start justify-between mb-space-lg">
+<span class="font-display-xl text-display-xl text-surface-container-highest select-none leading-none">03</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-space-xs py-0.5 bg-surface-container-high text-on-surface">RESOLUTION</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-space-md">
+          3. 해결 방향
+        </h2>
+<div class="flex-grow flex flex-col justify-between pt-space-sm">
+<div class="bg-surface-container-low p-space-md min-h-[140px] flex items-center justify-center text-center mb-space-md">
+<p class="font-body-md text-body-md text-muted-subtext italic">
+              [내용 수정 중 - 추후 입력]
+            </p>
+</div>
+<div class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-wider pt-space-xs">
+            STAGE / DESIGN STRATEGY &amp; IMPLEMENTATION
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Individual Contributor & Role Breakdown Block -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl bg-surface-container-lowest">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<div class="lg:col-span-4 flex flex-col gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext">CONTRIBUTION &amp; SCOPE</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">나의 역할</h3>
+</div>
+<div class="lg:col-span-8 bg-surface-container-low p-space-lg shadow-sm flex flex-col justify-center min-h-[160px]">
+<p class="font-body-lg text-body-lg text-on-surface mb-space-sm">
+          [추후 입력]
+        </p>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">
+          KEY RESPONSIBILITIES • DESIGN EXECUTION • SYSTEM GOVERNANCE • CLIENT WORKSHOPPING
+        </span>
+</div>
+</div>
+</section>
+<!-- Editorial Next Project Link Block (Graphic Inversion) -->
+<section class="w-full bg-primary text-surface px-margin lg:px-margin-desktop py-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-sm max-w-xl">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-primary-fixed-dim">
+          UP NEXT IN PORTFOLIO • CASE 05
+        </span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-primary-fixed-dim tracking-wider">
+          CUSTOMER EXPERIENCE ARCHITECTURE
+        </span>
+<a class="group inline-flex items-center gap-space-md text-surface hover:text-primary-fixed transition-colors" data-path="projects" href="#">
+<span class="font-headline-lg text-headline-lg tracking-tight">
+            NEXT: CX PROJECT (우렁각시) →
+          </span>
+</a>
+</div>
+<div class="flex items-center gap-space-sm">
+<a class="px-space-md py-space-xs bg-surface text-primary font-label-mono-sm text-label-mono-sm uppercase tracking-wider hover:bg-secondary-container hover:text-on-secondary transition-colors inline-block" data-path="projects" href="#">
+          RETURN TO OVERVIEW
+        </a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 03 PROJECTS -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a aria-current="page" class="px-space-xs py-1 transition-colors uppercase bg-primary text-surface font-label-mono-sm text-label-mono-sm" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Curatorial Banner & Index Meta -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-lg lg:py-space-xl bg-surface">
+<div class="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-space-md">
+<div class="space-y-space-xs max-w-2xl">
+<div class="flex items-center gap-space-sm font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-muted-subtext">
+<span class="inline-block w-2 h-2 bg-secondary"></span>
+<span>INDEX / 03</span>
+<span>·</span>
+<span>CURATED MONOGRAPH</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+          03 / SELECTED PROJECTS
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          BX, CX, DX 프로젝트 아카이브 — 브랜드 아이덴티티 수립부터 사용자 경험(CX) 제품 기획, 인공지능 기반 디지털 전환(DX) 플랫폼에 이르는 선별된 실무 디자인 여정입니다.
+        </p>
+</div>
+<!-- Quick Metrics / Spec Strip -->
+<div class="flex items-center gap-space-lg font-label-mono-sm text-label-mono-sm uppercase text-muted-subtext">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold text-headline-md">03</span>
+<span>ARCHIVED ENTRIES</span>
+</div>
+<div class="h-8 w-px bg-architectural-hairline"></div>
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold text-headline-md">2026</span>
+<span>EDITION VER.</span>
+</div>
+<div class="h-8 w-px bg-architectural-hairline"></div>
+<div class="flex flex-col">
+<span class="text-secondary font-semibold text-headline-md">BX·CX·DX</span>
+<span>DISCIPLINES</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Catalogue Divider Line -->
+<div class="w-full h-px bg-architectural-hairline"></div>
+<!-- Project 01: BX PROJECT (Monochrome Minimalist Specimen) -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl bg-surface group transition-colors duration-500 hover:bg-surface-container-low">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-stretch">
+<!-- Media Viewport / Architectural Frame (Cols 1-7) -->
+<a class="lg:col-span-7 flex flex-col justify-between bg-surface-container-highest min-h-[380px] lg:min-h-[460px] p-space-lg relative overflow-hidden transition-transform duration-300" data-path="project-bx" href="#">
+<div class="flex items-center justify-between w-full font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span class="tracking-widest">BX / SPECIMEN FILE_01</span>
+<span class="bg-surface px-space-xs py-0.5 text-on-surface">STATUS: [추후 업로드]</span>
+</div>
+<!-- Architectural Blueprint Placeholder Motif -->
+<div class="my-auto flex flex-col items-center justify-center text-center space-y-space-md py-space-xl">
+<div class="w-20 h-20 bg-surface flex items-center justify-center text-on-surface shadow-sm transition-transform duration-500 group-hover:scale-105">
+<span class="material-symbols-outlined text-[32px] text-muted-subtext">architecture</span>
+</div>
+<div class="space-y-1">
+<p class="font-headline-md text-headline-md text-on-surface uppercase tracking-tight">[ 브랜드 경험 시각화 대기 ]</p>
+<p class="font-label-mono-xs text-label-mono-xs text-muted-subtext tracking-widest uppercase">DIMENSIONS · GRID SYSTEM · TYPOGRAPHIC MANUAL</p>
+</div>
+</div>
+<div class="flex items-center justify-between w-full pt-space-md font-label-mono-xs text-label-mono-xs text-muted-subtext">
+<span>IDENTITY SYSTEM — BRAND ARCHITECTURE</span>
+<span class="group-hover:text-primary flex items-center gap-1 font-label-mono-sm">OPEN REPOSITORY →</span>
+</div>
+</a>
+<!-- Content Lockup / Typography Column (Cols 8-12) -->
+<div class="lg:col-span-5 flex flex-col justify-between py-space-xs">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary font-semibold">[ 01 ]</span>
+<span class="uppercase tracking-widest text-muted-subtext">DISCIPLINE: BX DESIGN</span>
+</div>
+<div class="space-y-space-xs">
+<div class="inline-block px-space-xs py-0.5 bg-surface-container font-label-mono-xs text-label-mono-xs uppercase text-on-surface-variant">
+              IDENTITY &amp; STRATEGY
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight group-hover:translate-x-1 transition-transform duration-300">
+              [추후 입력]
+            </h2>
+<p class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-wider">
+              브랜드 경험 디자인 프로젝트 [추후 입력]
+            </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            고유한 브랜드 철학과 비전을 바탕으로 시각 언어, 가이드라인 및 오프라인/디지털 접점을 총괄 설계한 브랜드 아이덴티티 프로젝트입니다. 명확한 메시지와 조형적 규격으로 장기적인 브랜드 일관성을 수립합니다.
+          </p>
+<!-- Spec Tags -->
+<div class="flex flex-wrap gap-space-xs pt-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Visual Guidelines</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Grid System</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Touchpoints</span>
+</div>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center justify-between w-full lg:w-auto gap-space-md bg-primary text-surface px-6 py-3 font-label-mono-sm text-label-mono-sm uppercase tracking-wider hover:bg-secondary transition-colors duration-200 shadow-sm" data-path="project-bx" href="#">
+<span>VIEW BX CASE STUDY</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Structural Hairline -->
+<div class="w-full h-px bg-architectural-hairline"></div>
+<!-- Project 02: CX PROJECT (우렁각시 - Prominent Feature) -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl bg-surface-bright group transition-colors duration-500 hover:bg-surface-container-low">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-stretch">
+<!-- Media Viewport / Prominent Image (Cols 1-7) -->
+<a class="lg:col-span-7 flex flex-col bg-surface overflow-hidden relative group/img shadow-sm" data-path="project-cx" href="#">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover/img:scale-105" data-alt="A sleek, modern automated robotic vacuum cleaner designed for luxury bathroom floors, positioned on wet beige travertine limestone tiles inside a contemporary architectural bathroom with glass shower stall, floating oak vanity, and soft natural daylight coming through steel-framed windows. High-end editorial product photography, cinematic lighting, warm neutral tones, hyper-realistic materiality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5l_7ZUREfFPv1VfXIPvtDBGnQd_qL2JX4-atCn-SdNoivOv6tuS6Bv2fURgwclVr0l6wMOCXCG8JlLM5WsxiEd5ow7G98kl0QmI8TcmSHSKipi8saTV4rGTwTg6izX7WV8XCrKGKIozKeYvBE_851ymCK4a9d_eZKeLaTfYFW8e2udqqjxOvKqj-Ho055m8bmqcoNay0fhgqYoucmkbO2jkQlcBlqApl5i-hXQGc"/>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-sm text-surface font-label-mono-xs text-label-mono-xs px-2.5 py-1 uppercase tracking-widest">
+            CX CASE · ROBOTICS
+          </div>
+</div>
+<!-- Image Caption Bar -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext">
+<span class="text-on-surface font-medium uppercase">FIG. 02 — WET TILE NAVIGATION SYSTEM &amp; SENSOR ARRAY</span>
+<span class="uppercase">HARDWARE &amp; ERGONOMICS</span>
+</div>
+</a>
+<!-- Content Lockup / Typography Column (Cols 8-12) -->
+<div class="lg:col-span-5 flex flex-col justify-between py-space-xs">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary font-semibold">[ 02 ]</span>
+<span class="uppercase tracking-widest text-muted-subtext">DISCIPLINE: CX PRODUCT DESIGN</span>
+</div>
+<div class="space-y-space-xs">
+<div class="inline-block px-space-xs py-0.5 bg-secondary-fixed text-on-secondary-fixed font-label-mono-xs text-label-mono-xs uppercase font-medium">
+              욕실 바닥 관리 로봇청소기
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight group-hover:translate-x-1 transition-transform duration-300">
+              우렁각시
+            </h2>
+<p class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-wider">
+              AUTOMATED BATHROOM FLOOR SANITATION SYSTEM
+            </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            고객의 욕실 청소 경험을 심층 분석해 반복적인 관리 부담과 습기 스트레스를 획기적으로 줄이는 자동화 제품 제안 프로젝트입니다. 물기 감지 라이다 센서, 항균 건조 롤러, 미끄럼 방지 휠 트랙 및 벽면 거치 도킹 스테이션의 사용자 여정을 빈틈없이 설계했습니다.
+          </p>
+<!-- Core Research Highlights -->
+<div class="bg-surface-container p-space-md space-y-space-xs">
+<div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span>CUSTOMER PAIN POINT RESOLUTION</span>
+<span class="text-secondary">INDEX 94%</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">
+              “욕실 물때 관리의 물리적 노동을 0으로 수렴시키는 자동 청소 루틴 구축”
+            </p>
+</div>
+<!-- Feature Badges -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">CX Journey Map</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Physical Prototyping</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Waterproof CMF</span>
+</div>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center justify-between w-full lg:w-auto gap-space-md bg-primary text-surface px-6 py-3 font-label-mono-sm text-label-mono-sm uppercase tracking-wider hover:bg-secondary transition-colors duration-200 shadow-sm" data-path="project-cx" href="#">
+<span>EXPLORE CX CASE STUDY</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Structural Hairline -->
+<div class="w-full h-px bg-architectural-hairline"></div>
+<!-- Project 03: DX PROJECT (시니어 스마트가이드 - Prominent Feature) -->
+<section class="w-full px-margin lg:px-margin-desktop py-space-xl lg:py-space-2xl bg-surface group transition-colors duration-500 hover:bg-surface-container-low">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-gutter-desktop items-stretch">
+<!-- Media Viewport / Tablet & Travel Journal (Cols 1-7) -->
+<a class="lg:col-span-7 flex flex-col bg-surface overflow-hidden relative group/img shadow-sm" data-path="project-dx" href="#">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover/img:scale-105" data-alt="Editorial tabletop scene of an active travel curation setup with a digital tablet displaying 'KOREA JOURNEY: AI Smart Guide' interface featuring coastal maps, hiking routes, and historic Korean hanok photos. Next to the tablet lies an open leather-bound travel journal with handwritten notes, polaroid photographs of Jeju and Busan, a retro vintage camera, and glasses on a rustic sunlit wooden table with scenic coastal mountains through a traditional hanok window frame. Warm, cozy, sophisticated lifestyle aesthetics." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXiSDZSfxvDgbL2VyDu9efF_5yXLuQ5E1ybOaDygJmuWj7mGdbVlGzyvmZiA6YroQ_q4kH0c4QqZvhPpRIHMzDzmnWuohNR8GoXNv3JPytjHT3yKz_LgAEDPo7GRtX_eE7LiidIrbOQshXBvQoEA8m3y-Hc3J6dJbit4VIiyv3RF7MGUVUTLKQpWWKq7HcnSWYNrrYYNkMKjsdIwdT_lU9lXcsluIXq5PPtoCtogQ"/>
+<div class="absolute top-4 left-4 bg-primary/80 backdrop-blur-sm text-surface font-label-mono-xs text-label-mono-xs px-2.5 py-1 uppercase tracking-widest">
+            DX CASE · AI TRAVEL
+          </div>
+</div>
+<!-- Image Caption Bar -->
+<div class="p-space-md bg-surface-container-low flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext">
+<span class="text-on-surface font-medium uppercase">FIG. 03 — MULTIMODAL ITINERARY GENERATOR UI &amp; ACCESSIBLE UX</span>
+<span class="uppercase">AI ENGINE · TABLET UI</span>
+</div>
+</a>
+<!-- Content Lockup / Typography Column (Cols 8-12) -->
+<div class="lg:col-span-5 flex flex-col justify-between py-space-xs">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between font-label-mono-sm text-label-mono-sm">
+<span class="text-secondary font-semibold">[ 03 ]</span>
+<span class="uppercase tracking-widest text-muted-subtext">DISCIPLINE: DX &amp; AI PLATFORM</span>
+</div>
+<div class="space-y-space-xs">
+<div class="inline-block px-space-xs py-0.5 bg-surface-container font-label-mono-xs text-label-mono-xs uppercase text-on-surface-variant font-medium">
+              AI 기반 국내 자유여행 코스 추천 서비스
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight group-hover:translate-x-1 transition-transform duration-300">
+              시니어 스마트가이드
+            </h2>
+<p class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-wider">
+              INTELLIGENT SENIOR MOBILITY &amp; ITINERARY CURATION
+            </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            TV 방송 및 영상 미디어에서 발견한 명소를 AI 멀티모달 모델로 실시간 분석하고, 고령 사용자의 보행 능력, 대중교통 접근성, 식단 선호도 등 개인 조건을 반영하여 최적화된 맞춤형 국내 여행 코스를 자동 생성하는 지능형 디지털 서비스입니다.
+          </p>
+<!-- Core System Architecture Snapshot -->
+<div class="bg-surface-container p-space-md space-y-space-xs">
+<div class="flex items-center justify-between font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase">
+<span>SYSTEM MODALITY</span>
+<span class="text-secondary">VISION &amp; RAG LLM</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-medium">
+              “시니어 친화적 UI, 음성 지원 내비게이션, 맞춤형 완충 휴식 일정 자동 배치”
+            </p>
+</div>
+<!-- Feature Badges -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Senior-Centric UX</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Multimodal AI</span>
+<span class="font-label-mono-xs text-label-mono-xs px-2 py-1 bg-surface-container text-on-surface uppercase">Route Optimization</span>
+</div>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center justify-between w-full lg:w-auto gap-space-md bg-primary text-surface px-6 py-3 font-label-mono-sm text-label-mono-sm uppercase tracking-wider hover:bg-secondary transition-colors duration-200 shadow-sm" data-path="project-dx" href="#">
+<span>EXPLORE DX CASE STUDY</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Navigation Bar to Next Chapter -->
+<section class="w-full bg-soft-charcoal text-surface py-space-xl lg:py-space-2xl px-margin lg:px-margin-desktop">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+<div class="space-y-space-xs max-w-xl">
+<div class="font-label-mono-xs text-label-mono-xs text-surface-tint uppercase tracking-widest">
+          UP NEXT · SECTION 07
+        </div>
+<h3 class="font-headline-md text-headline-md text-surface tracking-tight">
+          AI EXPERIENCE ARCHITECTURE
+        </h3>
+<p class="font-body-md text-body-md text-primary-fixed-dim">
+          생성형 AI와 사용자 인터랙션 모델의 융합 사례, 설계 방법론 및 미래 프로덕트 비전 탐색.
+        </p>
+</div>
+<a class="group flex items-center gap-space-md bg-surface text-primary px-8 py-4 font-label-mono-sm text-label-mono-sm uppercase tracking-wider hover:bg-secondary hover:text-surface transition-all duration-300 shadow-md" data-path="ai-experience" href="#">
+<span>07 AI EXPERIENCE</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 02 ABOUT ME -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="cover" href="#">01 COVER</a><a aria-current="page" class="px-space-xs py-1 transition-colors uppercase bg-primary text-surface font-label-mono-sm text-label-mono-sm" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Progress & Structural Context Line -->
+<div class="w-full px-margin lg:px-margin-desktop py-space-sm flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs tracking-widest uppercase">
+<div class="flex items-center gap-space-sm">
+<span class="inline-block w-1.5 h-1.5 bg-primary"></span>
+<span class="text-on-surface">FOLIO SPEC / 2026.1</span>
+<span class="text-muted-subtext">/</span>
+<span>SECTION STATEMENT</span>
+</div>
+<div class="hidden sm:flex items-center gap-space-lg text-muted-subtext">
+<span>LAT 37.5665° N · LON 126.9780° E</span>
+<span class="text-on-surface">P. 02 OF 08</span>
+</div>
+</div>
+<!-- Primary Asymmetric Editorial Hero Canvas -->
+<section class="relative w-full px-margin lg:px-margin-desktop min-h-[calc(100vh-140px)] flex flex-col justify-between py-space-xl lg:py-space-2xl">
+<!-- Editorial Index Anchor & Vertical Architectural Tag -->
+<div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-desktop items-baseline">
+<div class="lg:col-span-3 flex flex-col gap-space-xs">
+<span class="font-label-mono-sm text-label-mono-sm tracking-widest text-primary uppercase">[ 02 / ABOUT ME ]</span>
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-widest">MANIFESTO &amp; IDENTITY</span>
+</div>
+<div class="hidden lg:block lg:col-span-9 text-right">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">ARCHITECTURAL CASEWORK · DISCIPLINARY CORE</span>
+</div>
+</div>
+<!-- Centerpiece: High-Scale Monolithic Editorial Headline -->
+<div class="w-full my-auto py-space-xl lg:py-space-2xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-desktop items-start">
+<!-- Left Spatial Lead & Disciplines -->
+<div class="lg:col-span-3 flex flex-col justify-between h-full pt-2">
+<div class="space-y-space-sm">
+<div class="font-label-mono-xs text-label-mono-xs tracking-widest text-muted-subtext uppercase">CORE DISCIPLINE MATRIX</div>
+<p class="font-label-mono-sm text-label-mono-sm text-on-surface tracking-wider uppercase leading-relaxed">
+              BX · CX · DX<br/>
+              AI EXPERIENCE
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md hidden lg:block">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext uppercase tracking-widest block mb-space-xs">TYPE SPEC</span>
+<span class="font-label-mono-xs text-label-mono-xs text-on-surface-variant">SYNE BOLD / HANKEN GROTESK / SPACE MONO</span>
+</div>
+</div>
+<!-- Right Focal Statement Lockup -->
+<div class="lg:col-span-9 flex flex-col justify-center">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest text-secondary mb-space-sm">THESIS &amp; DIRECTION</span>
+<h1 class="font-display-xl text-display-xl-mobile lg:text-display-xl text-primary tracking-tight font-bold select-all leading-none">
+            자기소개 한 문장:<br class="hidden sm:inline"/>
+<span class="text-on-surface-variant font-medium underline decoration-1 underline-offset-8 decoration-outline-variant hover:text-primary transition-colors cursor-text">[추후 입력]</span>
+</h1>
+<div class="mt-space-lg max-w-xl">
+<p class="font-body-lg text-body-lg text-muted-subtext font-light leading-relaxed">
+              Synthesizing boundary-pushing visual identity, human-centric spatial interaction, and generative artificial intelligence frameworks into clear, enduring digital architecture.
+            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Functional Anchor & Next Project Link -->
+<div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-desktop items-end pt-space-lg">
+<!-- Coordinate Metadata Chips -->
+<div class="lg:col-span-4 flex flex-wrap items-center gap-space-xs">
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-2 py-1 bg-surface-container-high text-on-surface">STATUS: EXPANDING</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-2 py-1 bg-surface-container-low text-muted-subtext">EXP. 2020—2026</span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase tracking-widest px-2 py-1 bg-surface-container-low text-muted-subtext">SEOUL / GLOBAL</span>
+</div>
+<!-- Center Subtle Philosophy Marker -->
+<div class="hidden lg:flex lg:col-span-4 justify-center">
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext tracking-widest uppercase">
+          02 // EDITORIAL STATEMENT
+        </span>
+</div>
+<!-- Action: View Selected Works Navigation -->
+<div class="lg:col-span-4 flex items-center justify-start lg:justify-end mt-space-md lg:mt-0">
+<a class="group inline-flex items-center justify-between gap-space-md px-space-md py-space-sm bg-primary text-surface transition-all duration-300 hover:bg-secondary" data-path="projects" href="#">
+<span class="font-label-mono-sm text-label-mono-sm tracking-widest uppercase text-surface">03 PROJECTS</span>
+<span class="font-label-mono-sm text-label-mono-sm tracking-widest uppercase text-surface/80 group-hover:text-surface">VIEW SELECTED WORKS</span>
+<span class="material-symbols-outlined text-surface text-[16px] transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
+
+<!-- 01 COVER -->
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=Syne:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "inverse-on-surface": "#f1f1f0",
+          "soft-charcoal": "#191919",
+          "on-error": "#ffffff",
+          "secondary-fixed": "#dce1ff",
+          "surface-container-highest": "#e2e2e2",
+          "inverse-primary": "#c8c6c5",
+          "surface-bright": "#f9f9f8",
+          "surface-container-lowest": "#ffffff",
+          "surface-container-high": "#e8e8e7",
+          "secondary-container": "#0056fd",
+          "inverse-surface": "#2f3130",
+          "primary-fixed": "#e5e2e1",
+          "tertiary-container": "#001e2b",
+          "error": "#ba1a1a",
+          "outline-variant": "#c4c7c7",
+          "on-tertiary": "#ffffff",
+          "surface-dim": "#dadad9",
+          "primary-fixed-dim": "#c8c6c5",
+          "on-secondary": "#ffffff",
+          "on-secondary-container": "#e4e7ff",
+          "surface-variant": "#e2e2e2",
+          "on-tertiary-container": "#5d8aa1",
+          "on-tertiary-fixed": "#001e2b",
+          "surface-container-low": "#f3f4f3",
+          "architectural-hairline": "#E5E5E2",
+          "on-tertiary-fixed-variant": "#1a4c61",
+          "on-primary-fixed-variant": "#474646",
+          "on-primary": "#ffffff",
+          "on-surface": "#1a1c1c",
+          "tertiary": "#000000",
+          "error-container": "#ffdad6",
+          "secondary-fixed-dim": "#b6c4ff",
+          "on-primary-container": "#858383",
+          "secondary": "#0042c7",
+          "surface": "#f9f9f8",
+          "tertiary-fixed": "#c1e8ff",
+          "primary-container": "#1c1b1b",
+          "on-surface-variant": "#444748",
+          "background": "#f9f9f8",
+          "surface-tint": "#5f5e5e",
+          "on-primary-fixed": "#1c1b1b",
+          "muted-subtext": "#737370",
+          "outline": "#747878",
+          "primary": "#000000",
+          "on-background": "#1a1c1c",
+          "on-secondary-fixed-variant": "#003ab2",
+          "on-secondary-fixed": "#001550",
+          "tertiary-fixed-dim": "#9fcde6",
+          "on-error-container": "#93000a",
+          "surface-container": "#eeeeed"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-2xl": "7rem",
+          "space-lg": "2rem",
+          "margin": "1.25rem",
+          "space-xl": "4rem",
+          "margin-desktop": "3.5rem",
+          "space-sm": "0.5rem",
+          "gutter": "1.5rem",
+          "gutter-desktop": "2.5rem",
+          "space-xs": "0.25rem",
+          "space-md": "1rem"
+        },
+        "fontFamily": {
+          "display-xl": [
+            "Syne"
+          ],
+          "headline-md": [
+            "Syne"
+          ],
+          "body-md": [
+            "Hanken Grotesk"
+          ],
+          "display-xl-mobile": [
+            "Syne"
+          ],
+          "headline-lg": [
+            "Syne"
+          ],
+          "body-lg": [
+            "Hanken Grotesk"
+          ],
+          "label-mono-xs": [
+            "Space Mono"
+          ],
+          "headline-lg-mobile": [
+            "Syne"
+          ],
+          "label-mono-sm": [
+            "Space Mono"
+          ],
+          "body-sm": [
+            "Hanken Grotesk"
+          ]
+        },
+        "fontSize": {
+          "display-xl": [
+            "84px",
+            {
+              "lineHeight": "92px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "28px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-md": [
+            "15px",
+            {
+              "lineHeight": "24px",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "44px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "48px",
+            {
+              "lineHeight": "54px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "label-mono-xs": [
+            "9px",
+            {
+              "lineHeight": "12px",
+              "letterSpacing": "0.12em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "32px",
+            {
+              "lineHeight": "38px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-mono-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.08em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "20px",
+              "fontWeight": "400"
+            }
+          ]
+        }
+      }
+    }
+  };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 w-full px-margin lg:px-margin-desktop flex items-center justify-between"><a class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-on-surface hover:opacity-70 transition-opacity" data-path="cover" href="#">2026 PORTFOLIO</a><div class="flex items-center gap-space-lg"><nav class="flex items-center gap-space-md" data-active-classes="bg-primary text-surface font-label-mono-sm text-label-mono-sm"><a aria-current="page" class="px-space-xs py-1 transition-colors uppercase bg-primary text-surface font-label-mono-sm text-label-mono-sm" data-path="cover" href="#">01 COVER</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="about-me" href="#">02 ABOUT</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="projects" href="#">03 PROJECTS</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="ai-experience" href="#">07 AI EXPERIENCE</a><a class="font-label-mono-sm text-label-mono-sm px-space-xs py-1 text-on-surface-variant hover:text-on-surface transition-colors uppercase" data-path="closing" href="#">08 CLOSING</a></nav><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<section class="relative w-full min-h-[calc(100vh-4rem)] flex flex-col justify-between px-margin lg:px-margin-desktop py-space-lg lg:py-space-xl overflow-hidden bg-surface">
+<!-- Top Index & Volume Classification System -->
+<div class="w-full flex flex-col md:flex-row md:items-end justify-between gap-space-md pb-space-md border-b border-architectural-hairline">
+<div class="flex items-center gap-space-lg">
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-primary tracking-widest">[ ISSUE 01 / 08 ]</span>
+<span class="w-1.5 h-1.5 bg-secondary"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest hidden sm:inline-block">ARCHIVAL FOLIO EDITION // PRINT RUN 2026.KOR</span>
+</div>
+<div class="flex items-center gap-space-md text-right">
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-wider text-muted-subtext">CORE DISCIPLINE:</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase text-primary tracking-widest font-semibold">BX · CX · DX · ARTIFICIAL INTELLIGENCE</span>
+</div>
+</div>
+<!-- Central Hero Composition: Behance Sara Powar Typographic Stacking -->
+<div class="my-auto py-space-xl lg:py-space-2xl flex flex-col relative">
+<!-- Ambient Architectural Cross-hair Markers -->
+<div class="absolute -top-6 left-0 font-label-mono-xs text-label-mono-xs text-muted-subtext select-none">+ 37.5665° N / 126.9780° E</div>
+<div class="absolute -top-6 right-0 font-label-mono-xs text-label-mono-xs text-muted-subtext select-none">[ REF. 2026-SP-CURATION ]</div>
+<div class="grid grid-cols-12 gap-gutter lg:gap-gutter-desktop items-baseline">
+<!-- Giant Statement Layer -->
+<div class="col-span-12 lg:col-span-9 flex flex-col">
+<div class="overflow-hidden">
+<h1 class="font-display-xl text-display-xl uppercase text-primary tracking-tighter leading-none select-none transition-transform duration-700 hover:translate-x-2">
+              PORTFOLIO
+            </h1>
+</div>
+<div class="flex items-baseline justify-between flex-wrap gap-space-sm -mt-2 lg:-mt-4">
+<span class="font-display-xl text-display-xl text-primary tracking-tighter leading-none select-none">
+              2026
+            </span>
+<span class="font-label-mono-sm text-label-mono-sm text-muted-subtext uppercase tracking-widest border border-architectural-hairline px-3 py-1 bg-surface-bright">
+              SELECTED MULTIDISCIPLINARY WORKS
+            </span>
+</div>
+</div>
+<!-- Vertical Sub-editorial Annotation -->
+<div class="col-span-12 lg:col-span-3 flex lg:flex-col justify-between items-start gap-space-md border-t lg:border-t-0 lg:border-l border-architectural-hairline pt-space-md lg:pt-0 lg:pl-space-lg">
+<div class="flex flex-col gap-1">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">IDENTITY SYSTEM</span>
+<span class="font-body-md text-body-md text-on-surface font-medium leading-snug">Visual, Strategic &amp; Generative Direction</span>
+</div>
+<div class="hidden lg:flex flex-col gap-2 mt-auto pt-space-xl">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext">[ MANIFESTO ]</span>
+<p class="font-body-sm text-body-sm text-muted-subtext leading-relaxed">
+              Design disciplined by spatial rhythm, intentional negative space, and algorithmic interaction.
+            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Editorial Identity Blocks (User-Requested Korean Personal Fields) -->
+<div class="w-full grid grid-cols-1 md:grid-cols-12 gap-gutter lg:gap-gutter-desktop border-t border-architectural-hairline pt-space-lg items-end">
+<!-- Meta Column 1: Korean Name Field -->
+<div class="md:col-span-4 flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">CREATIVE PRINCIPAL / IDENTIFIER</span>
+</div>
+<div class="group flex items-baseline gap-space-sm border-b border-architectural-hairline pb-2 focus-within:border-primary transition-colors">
+<label class="font-body-md text-body-md text-primary font-medium shrink-0 select-none" for="portfolio-creator-name">
+            이름:
+          </label>
+<input aria-label="Creator Name" class="w-full bg-transparent font-headline-md text-headline-md text-primary placeholder:text-muted-subtext placeholder:font-normal outline-none border-none p-0 tracking-tight" id="portfolio-creator-name" placeholder="[이름 입력]" type="text" value=""/>
+</div>
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext">01.01 — REGISTERED CREATOR NAME</span>
+</div>
+<!-- Meta Column 2: Personal Statement Field -->
+<div class="md:col-span-5 flex flex-col gap-space-xs mt-space-md md:mt-0">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-architectural-hairline"></span>
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest">EDITORIAL STATEMENT / THOUGHT</span>
+</div>
+<div class="group flex items-baseline gap-space-sm border-b border-architectural-hairline pb-2 focus-within:border-primary transition-colors">
+<label class="font-body-md text-body-md text-primary font-medium shrink-0 select-none" for="portfolio-one-liner">
+            나를 표현하는 한 문장:
+          </label>
+<input aria-label="One-liner statement" class="w-full bg-transparent font-body-lg text-body-lg text-primary placeholder:text-muted-subtext placeholder:font-normal outline-none border-none p-0 tracking-tight" id="portfolio-one-liner" placeholder="[추후 입력]" type="text" value=""/>
+</div>
+<span class="font-label-mono-xs text-label-mono-xs text-muted-subtext">01.02 — PERSPECTIVE &amp; PHILOSOPHICAL POSITION</span>
+</div>
+<!-- Meta Column 3: Forward Navigation CTA -->
+<div class="md:col-span-3 flex justify-start md:justify-end items-end mt-space-lg md:mt-0">
+<a class="group w-full md:w-auto inline-flex items-center justify-between md:justify-end gap-space-md bg-primary text-on-primary px-space-md py-space-sm transition-all duration-300 hover:bg-secondary focus:outline-none" data-path="about-me" href="#">
+<div class="flex flex-col text-left">
+<span class="font-label-mono-xs text-label-mono-xs uppercase text-surface/70 group-hover:text-surface">PROCEED SECTION</span>
+<span class="font-label-mono-sm text-label-mono-sm uppercase tracking-widest font-semibold">02 ABOUT ME</span>
+</div>
+<span class="material-symbols-outlined text-lg transition-transform duration-300 group-hover:translate-x-1.5">
+            arrow_forward
+          </span>
+</a>
+</div>
+</div>
+<!-- Editorial Footer Framing Coordinates -->
+<div class="w-full mt-space-lg pt-space-sm flex items-center justify-between text-muted-subtext font-label-mono-xs text-label-mono-xs border-t border-architectural-hairline/60">
+<div class="flex items-center gap-space-md">
+<span>GRID: 12-COL ASYMMETRIC</span>
+<span class="hidden sm:inline-block">•</span>
+<span class="hidden sm:inline-block">SPACE COORD: SEOUL / GLOBAL</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-primary/20 animate-pulse"></span>
+<span class="uppercase tracking-widest text-primary">PORTFOLIO INDEX READY</span>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low py-space-lg"><div class="w-full px-margin lg:px-margin-desktop flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md font-label-mono-xs text-label-mono-xs uppercase text-muted-subtext tracking-widest"><div class="flex items-center gap-space-md"><span class="text-on-surface font-label-mono-sm text-label-mono-sm">© 2026 PORTFOLIO ALL RIGHTS RESERVED</span><span>INDEX / 01–08</span></div><div class="flex items-center gap-space-lg"><span class="hover:text-on-surface transition-colors">ARCHITECTURAL CASEWORK</span><span class="text-on-surface">EDITION 2026.1</span></div></div></footer></body></html>
